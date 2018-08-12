@@ -17,11 +17,6 @@ def select_name_and_series_subgenres_of_authors
   INNER JOIN authors ON series.author_id = authors.id;"
 end
 
-SELECT column_name(s)
-FROM first_table
-INNER JOIN second_table
-ON first_table.column_name = second_table.column_name;
-
 def select_series_title_with_most_human_characters
   "Write your SQL query here"
 end
