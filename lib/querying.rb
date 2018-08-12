@@ -17,11 +17,6 @@ def select_name_and_series_subgenres_of_authors
   ON authors.id = series.author_id INNER JOIN series ON subgenre.id = series.subgenre_id;"
 end
 
-SELECT Cats.name, Cats.breed, Owners.name 
-FROM Cats 
-INNER JOIN Owners
-ON Cats.owner_id = Owners.id;
-
 def select_series_title_with_most_human_characters
   "Write your SQL query here"
 end
